@@ -1,0 +1,54 @@
+body{
+  font-family: "Inter", sans-serif;
+  background-color: #F8F8F8;
+}
+.block-task{
+   width: 1440px;
+    display:flex;
+    justify-content:space-between;
+    margin:199px auto 0;
+ }
+ .info{
+    width:669px;
+    margin-top: 56px; 
+ }
+ .title{
+    font-size: 58px;
+    line-height:64px;
+    font-weight: 400;
+    margin: 0 0 17px ;
+    font-family: "Fraunces", sans-serif;
+ }
+ .description{
+   width: 447px;
+   font-size: 20px;
+   line-height: 30px;
+   margin: 0 0 32px; 
+ }
+ .button{
+   font-family: "Inter", sans-serif;
+   font-size: 17px;
+   line-height: 27px;
+   text-decoration: none;
+   color:#FFFFFF;
+   background-color: #0070A0;
+   padding: 8px 56px;
+   margin: 0 31px 0 0;
+   cursor: pointer;
+ }
+ .link{
+   font-size: 17px;
+   line-height: 27px;
+   text-decoration: none;
+   color:#0070A0;
+   position: relative;
+ }
+ .link::after{
+   position: absolute;
+   width:18px;
+   height: 21px;
+   content:"";
+   top: 0px;
+   left: 110px;
+   background-image: url(img/icon.svg);
+ }
