@@ -1,0 +1,81 @@
+body{
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#01353E;
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 0;
+
+}
+
+.title{
+  text-align: center;
+  margin: 128px 0 96px 0;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+
+}
+
+.packages-container{
+   
+ display: flex;
+ justify-content: space-between;
+ gap: 60px;
+ margin: 0 360px;
+
+}
+
+.package{
+
+width: 360px;
+background-color: #FFFFFF;
+padding: 45px 0 0;
+position: relative;
+
+}
+
+.title-container{
+  
+   text-align: center; 
+   margin: 0 0 58px ;
+
+}
+.package-list{
+
+list-style: none;
+margin: 0 0 0 43px;
+padding: 0;
+
+}
+
+ .package-item{
+    font-size: 14px;
+    line-height: 18px;
+    color:#242121;
+    margin: 0 0 20px 0;
+
+ }
+
+ .package-item:last-child{
+    margin-bottom: 146px;
+
+}
+.price {
+   margin-bottom: auto;
+   position: absolute;
+   content: "";
+   top: 492px;
+   bottom: 45px;
+   margin: 0 0 0  153px  ;
+}
+
+.price-number{ 
+    
+     font-size: 36px;
+    line-height: 40px; 
+    margin-bottom: auto;
+}
