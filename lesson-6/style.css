@@ -1,0 +1,135 @@
+body {
+  margin: 100px 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.form-box {
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+  width: 780px;
+  border: 1px solid #e5e7eb;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 20px, 100% 95%, 95% 100%, 0% 100%);
+}
+
+.form-box h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111827;
+}
+
+.form-group {
+  margin-bottom: 28px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.form-group label .required {
+  color: #ef4444;
+  margin-left: 4px;
+}
+
+.underline-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  background: transparent;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #111827;
+}
+
+.underline-input::placeholder {
+  color: #9ca3af;
+}
+
+.underline-input:focus {
+  outline: none;
+  border-bottom: 1px solid #3b82f6;
+}
+
+.form-footer {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.consent input[type='checkbox'] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.consent input[type='checkbox']:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 6px;
+  height: 10px;
+  border: solid #ef4444;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.consent {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.consent a {
+  color: #000;
+  text-decoration-color: #e5481d;
+}
+
+button {
+  width: 250px;
+  color: #e5481d;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  clip-path: polygon(0 0, 95% 0, 100% 0%, 90% 100%, 0% 100%);
+  border: none;
+  z-index: 1;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(0 0, 95% 0, 100% 0%, 90% 100%, 0% 100%);
+  border: 1px solid #d1d5db;
+  background: transparent;
+  pointer-events: none;
+  z-index: -1;
+}
+
+button span {
+  position: relative;
+  z-index: 2;
+}
