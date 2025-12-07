@@ -1,0 +1,193 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.thalby {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.block h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.block-icons {
+  margin: 70px auto;
+  width: 1088px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 110px;
+}
+.item {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 0 26px;
+}
+.icon-aqua {
+  background-color: #21f7ec;
+}
+.icon-green {
+  background-color: #33d3bc;
+}
+.icon-blue {
+  background-color: #18a5c6;
+}
+.icon-orange {
+  background-color: #d38f62;
+}
+.icon-red {
+  background-color: #f94c43;
+}
+.icon-purple {
+  background-color: #d399ff;
+}
+.text {
+  font-size: 30px;
+  font-weight: 700;
+}
+.text p {
+  margin: 0;
+}
+.describe {
+  margin: 0 0 34px;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+.centered {
+  margin: 52px 0 103px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.background {
+  width: 2000px;
+  height: 480px;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  position: absolute;
+  top: 900px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.profiles h3 {
+  font-size: 22px;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0);
+}
+.thalby-guides {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.thalby-guides h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profile {
+  width: 260px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.profile img {
+  width: 288px;
+  height: 351px;
+  margin-bottom: 15px;
+}
+
+.name-first {
+  width: 126px;
+  height: 22px;
+}
+.name-average {
+  width: 163px;
+  height: 22px;
+}
+.name-last {
+  width: 154px;
+  height: 22px;
+}
+
+.role {
+}
+.description {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  margin-top: 10px;
+}
+
+.description .name {
+  font-weight: bold;
+}
+
+.description .role {
+  font-weight: normal;
+  color: #555;
+}
+
+.discover {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+  padding: 12px 0;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+}
